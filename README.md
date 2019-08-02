@@ -4,6 +4,7 @@ languages:
 - node
 products:
 - azure
+- azure-iot-hub
 description: "A website to upload GIFs to the MXCHIP with Azure IoT Hub"
 urlFragment: "update-this-to-unique-url-stub"
 ---
