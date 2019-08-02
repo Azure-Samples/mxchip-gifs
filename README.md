@@ -58,6 +58,11 @@ We'll need to store some credentials on your MXCHIP device so that it can connec
 6. Use the `exit` command and watch the terminal to confirm that your MXCHIP is connected successfully.
 7. You're done! Next step.
 
+#### Device troubleshooting
+- If you're having difficulty configuring your device in the terminal:
+  - **Connecting your device to wifi:** Follow the configure wifi step in the following doc https://microsoft.github.io/azure-iot-developer-kit/docs/get-started/ 
+  - **Setting the connection string**: In VS Code, hit Ctrl (or Cmd on OSX) + P to bring up the Command Palette, then type **Azure IoT Device Workbench: Configure Device Settings > IoT Hub Connection String** and paste your device connection string in the box.
+
 ### 3. Upload code to your MXCHIP
 
 1. [Install Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview) if you have not already.
@@ -67,6 +72,9 @@ We'll need to store some credentials on your MXCHIP device so that it can connec
 4. Hit Ctrl (or Cmd on OSX) + P to bring up the Command Palette, then type **Arduino: Library Manager**, search for **ArduinoJson** and install version 5.13.5. Please do not install beta versions which contain breaking changes.
 5. Hit Ctrl (or Cmd on OSX) + P again, and then type **Azure IoT Device Workbench**. Select the command of **Azure IoT Device Workbench: Update Device Code** to upload the device code to your MXCHIP. Ensure your MXCHIP is plugged in ^___^
 6. The code should now be running on your device and waiting for a GIF! Onwards.
+
+![Upload a gif message on MxChip](upload-gif-message.jpg)
+
 
 ### 4. Add IoT Hub connection string to your environment variables
 
