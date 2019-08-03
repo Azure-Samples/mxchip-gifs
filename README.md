@@ -1,12 +1,13 @@
 ---
 page_type: sample
 languages:
-- node
+- javascript
+- nodejs
 products:
 - azure
 - azure-iot-hub
-description: "A website to upload GIFs to the MXCHIP with Azure IoT Hub"
-urlFragment: "update-this-to-unique-url-stub"
+description: "A website to upload GIFs to the MXCHIP with Azure IoT Hub."
+urlFragment: "mxchip-gifs-sample"
 ---
 
 # Mxchip-gifs
