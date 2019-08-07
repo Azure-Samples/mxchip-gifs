@@ -43,7 +43,7 @@ We're going to use IoT Hub to communicate from our website to our MXCHIP device.
 
 ### 2. Create a new device identity
 
-1. Once your IoT Hub is created, follow the docs guide on [how to create a new device identity in the Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-node#register-a-device?WT.mc_id=mxchipgifs-github-cxa) or [in the portal](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started#register-a-new-device-in-the-iot-hub?WT.mc_id=mxchipgifs-github-cxa).
+1. Once your IoT Hub is created, follow the docs guide on [how to create a new device identity in the Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/iot-dps/about-iot-dps) or [in the portal](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started#register-a-new-device-in-the-iot-hub?WT.mc_id=mxchipgifs-github-cxa).
 2. Once your device identity is created, copy the connection string. Refer to the docs guide to locate it.
 3. Just follow those steps only and come back here. If you already have an IoT Hub to use, just create the device identity, and come back here when you're done.
 
